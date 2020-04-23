@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="language" content="es-MX">
+    <head>
+        <meta name="keywords" content ="Proyecto,Tecnologias,Web,escom,ipn,Hexagramas,I Ching,2cm8">
+        <title>Hexagramas del I Ching</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="scripts.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+
+        <p id="titulo"><font face="Candara" size=10>Hexagramas del I Ching</font></p>
+        
+        <div id="datos">
+            <p><input type="text" name="Valor" placeholder="Ingresa Valor 1" onfocus="this.value=''"></p>
+            <p><input type="text" name="Valor" placeholder="Ingresa Valor 2" onfocus="this.value=''"></p>
+            <p><input type="text" name="Valor" placeholder="Ingresa Valor 3" onfocus="this.value=''"></p>
+            <p>
+                <input class="boton" id="Añadir Linea" type="button" value="Añadir Linea" onclick="verificarValor()">
+                <input class="boton" id="Borrar Linea" type="button" value="Borrar Linea" onclick="borrarLinea()">
+                <input class="boton" id="Borrar Hexagrama" type="button" value="Borrar Hexagrama" onclick="borrarHexa()">
+            </p>
+        </div> 
+        <div class="Hexa" id="Izquierdo">
+            <canvas id="izq" width="250" height="250"></canvas>  
+        </div>
+        <div class="Hexa" id="Central">
+            <canvas id="centro" width="128" height="146"></canvas>
+        </div>
+        <div class="Hexa" id="Derecho">
+            <canvas id="der" width="128" height="146"></canvas>
+            </div> 
+        </div>
+    </body>
+</html>
