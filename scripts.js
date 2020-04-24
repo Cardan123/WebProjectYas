@@ -4,6 +4,7 @@ var contador=0;
 var arriba=380;
 var altura=0;
 var mutantes=0;
+
 function verificarValor() {
 
     var valores = document.getElementsByName("Valor"); //Obtener el arreglo con los valores ingresados
@@ -37,7 +38,7 @@ function verificarValor() {
     } else {
         dibujarLinea(suma, "Izquierdo");
     }
-
+    console.log(valorI)
 }
 
 function borrarLinea() {
@@ -110,6 +111,70 @@ function borrarHexa() {
         
     }
     valorI=[];
+    document.getElementById('H1').style.visibility='hidden';
+document.getElementById('H2').style.visibility='hidden';
+document.getElementById('H3').style.visibility='hidden';
+document.getElementById('H4').style.visibility='hidden';
+document.getElementById('H5').style.visibility='hidden';
+document.getElementById('H6').style.visibility='hidden';
+document.getElementById('H7').style.visibility='hidden';
+document.getElementById('H8').style.visibility='hidden';
+document.getElementById('H9').style.visibility='hidden';
+document.getElementById('H10').style.visibility='hidden';
+document.getElementById('H11').style.visibility='hidden';
+document.getElementById('H12').style.visibility='hidden';
+document.getElementById('H13').style.visibility='hidden';
+document.getElementById('H14').style.visibility='hidden';
+document.getElementById('H15').style.visibility='hidden';
+document.getElementById('H16').style.visibility='hidden';
+document.getElementById('H17').style.visibility='hidden';
+document.getElementById('H18').style.visibility='hidden';
+document.getElementById('H19').style.visibility='hidden';
+document.getElementById('H20').style.visibility='hidden';
+document.getElementById('H21').style.visibility='hidden';
+document.getElementById('H22').style.visibility='hidden';
+document.getElementById('H23').style.visibility='hidden';
+document.getElementById('H24').style.visibility='hidden';
+document.getElementById('H25').style.visibility='hidden';
+document.getElementById('H26').style.visibility='hidden';
+document.getElementById('H27').style.visibility='hidden';
+document.getElementById('H28').style.visibility='hidden';
+document.getElementById('H29').style.visibility='hidden';
+document.getElementById('H30').style.visibility='hidden';
+document.getElementById('H31').style.visibility='hidden';
+document.getElementById('H32').style.visibility='hidden';
+document.getElementById('H33').style.visibility='hidden';
+document.getElementById('H34').style.visibility='hidden';
+document.getElementById('H35').style.visibility='hidden';
+document.getElementById('H36').style.visibility='hidden';
+document.getElementById('H37').style.visibility='hidden';
+document.getElementById('H38').style.visibility='hidden';
+document.getElementById('H39').style.visibility='hidden';
+document.getElementById('H40').style.visibility='hidden';
+document.getElementById('H41').style.visibility='hidden';
+document.getElementById('H42').style.visibility='hidden';
+document.getElementById('H43').style.visibility='hidden';
+document.getElementById('H44').style.visibility='hidden';
+document.getElementById('H45').style.visibility='hidden';
+document.getElementById('H46').style.visibility='hidden';
+document.getElementById('H47').style.visibility='hidden';
+document.getElementById('H48').style.visibility='hidden';
+document.getElementById('H49').style.visibility='hidden';
+document.getElementById('H50').style.visibility='hidden';
+document.getElementById('H51').style.visibility='hidden';
+document.getElementById('H52').style.visibility='hidden';
+document.getElementById('H53').style.visibility='hidden';
+document.getElementById('H54').style.visibility='hidden';
+document.getElementById('H55').style.visibility='hidden';
+document.getElementById('H56').style.visibility='hidden';
+document.getElementById('H57').style.visibility='hidden';
+document.getElementById('H58').style.visibility='hidden';
+document.getElementById('H59').style.visibility='hidden';
+document.getElementById('H60').style.visibility='hidden';
+document.getElementById('H61').style.visibility='hidden';
+document.getElementById('H62').style.visibility='hidden';
+document.getElementById('H63').style.visibility='hidden';
+document.getElementById('H64').style.visibility='hidden';
 }
 
 function stateChange() {
@@ -223,10 +288,12 @@ function dibujarLinea(suma) {
                 break;
             default:
                 break;
-
         }
         if (contador == 6 && mutantes) {
+            cuadrito()  
             dosHexagramas();
+        }else if(contador == 6){
+            cuadrito()  
         }
     }
 }
@@ -407,3 +474,198 @@ function dosHexagramas(){
 mutantes=0;
 }
 
+
+function cuadrito(){
+    if(valorI[0] == 6 & valorI[1] == 6 & valorI[2] == 6 & valorI[3] == 6 & valorI[4] == 6 & valorI[5] == 6 ){
+        document.getElementById('H1').style.visibility= "visible";
+    }
+    else if (valorI[0] == 8 & valorI[1] == 8 & valorI[2] == 8 & valorI[3] == 8 & valorI[4] == 8 & valorI[5] == 8){
+        document.getElementById('H2').style.visibility= "visible";
+    }
+    else if (valorI[0] == 7 & valorI[1] == 8 & valorI[2] == 8 & valorI[3] == 8 & valorI[4] == 7 & valorI[5] == 8){
+        document.getElementById('H3').style.visibility= "visible";
+    }
+    else if (valorI[0] == 8 & valorI[1] == 7 & valorI[2] == 8 & valorI[3] == 8 & valorI[4] == 8 & valorI[5] == 7){
+        document.getElementById('H4').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 & valorI[5]==8){
+        document.getElementById('H5').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H6').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H7').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H8').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H9').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H10').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H11').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H12').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H13').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H14').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H15').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H16').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H17').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H18').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H19').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H20').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H21').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H22').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H23').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H24').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H25').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H26').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H27').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H28').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H29').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H30').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H31').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H32').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H33').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H34').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H35').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H36').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H37').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H38').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H39').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H40').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H41').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H42').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H43').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H44').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H45').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H46').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H47').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H48').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H49').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H50').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H51').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H52').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H53').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H54').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H55').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H56').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H57').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H58').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H59').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H60').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==7 & valorI[2]==8 & valorI[3]==8 & valorI[4]==7 &valorI[5]==7){
+        document.getElementById('H61').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==8 & valorI[2]==7 & valorI[3]==7 & valorI[4]==8 &valorI[5]==8){
+        document.getElementById('H62').style.visibility= "visible";
+    }
+    else if (valorI[0]==7 & valorI[1]==8 & valorI[2]==7 & valorI[3]==8 & valorI[4]==7 &valorI[5]==8){
+        document.getElementById('H63').style.visibility= "visible";
+    }
+    else if (valorI[0]==8 & valorI[1]==7 & valorI[2]==8 & valorI[3]==7 & valorI[4]==8 &valorI[5]==7){
+        document.getElementById('H64').style.visibility= "visible";
+    }
+}

@@ -110,3 +110,716 @@
     position: relative;
     text-align: center;
 }
+
+.contenedor{
+  position: fixed;
+  left: 300px;
+  top: 500px;
+  display: inline-block;
+  text-align: center;
+}
+
+#H1{ 
+    visibility: visible;
+    position: absolute;
+    top: 140px;
+    left: 195px;
+    color: black;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#H25{
+  position: absolute;
+  top: 210px;
+  left: 195px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H6{
+  position: absolute;
+  top: 280px;
+  left: 195px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H33{
+  position: absolute;
+  top: 350px;
+  left: 195px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H12{
+  position: absolute;
+  top: 420px;
+  left: 195px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H44{
+  position: absolute;
+  top: 485px;
+  left: 200px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H13{
+  position: absolute;
+  top: 545px;
+  left: 200px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H10{
+  position: absolute;
+  top: 615px;
+  left: 200px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H34{
+  position: absolute;
+  top: 140px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H51{
+  position: absolute;
+  top: 210px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H40{
+  position: absolute;
+  top: 280px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H62{
+  position: absolute;
+  top: 350px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H16{
+  position: absolute;
+  top: 420px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H32{
+  position: absolute;
+  top: 485px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H55{
+  position: absolute;
+  top: 545px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H54{
+  position: absolute;
+  top: 615px;
+  left: 285px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H5{
+  position: absolute;
+  top: 140px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H3{
+  position: absolute;
+  top: 210px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H29{
+  position: absolute;
+  top: 280px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H39{
+  position: absolute;
+  top: 350px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H8{
+  position: absolute;
+  top: 420px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H48{
+  position: absolute;
+  top: 485px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H63{
+  position: absolute;
+  top: 545px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H60{
+  position: absolute;
+  top: 615px;
+  left: 380px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H26{
+  position: absolute;
+  top: 140px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H27{
+  position: absolute;
+  top: 210px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H4{
+  position: absolute;
+  top: 280px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H52{
+  position: absolute;
+  top: 350px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H23{
+  position: absolute;
+  top: 420px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H18{
+  position: absolute;
+  top: 485px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H22{
+  position: absolute;
+  top: 545px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H41{
+  position: absolute;
+  top: 615px;
+  left: 475px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H11{
+  position: absolute;
+  top: 140px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H24{
+  position: absolute;
+  top: 210px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H7{
+  position: absolute;
+  top: 280px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H15{
+  position: absolute;
+  top: 350px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H2{
+  position: absolute;
+  top: 420px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H46{
+  position: absolute;
+  top: 485px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H36{
+  position: absolute;
+  top: 545px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H19{
+  position: absolute;
+  top: 615px;
+  left: 570px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H9{
+  position: absolute;
+  top: 140px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H42{
+  position: absolute;
+  top: 210px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H59{
+  position: absolute;
+  top: 280px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H53{
+  position: absolute;
+  top: 350px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H20{
+  position: absolute;
+  top: 420px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H57{
+  position: absolute;
+  top: 485px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H37{
+  position: absolute;
+  top: 545px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H61{
+  position: absolute;
+  top: 615px;
+  left: 665px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H14{
+  position: absolute;
+  top: 140px;
+  left: 745px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H21{
+  position: absolute;
+  top: 210px;
+  left: 745px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H64{
+  position: absolute;
+  top: 280px;
+  left: 745px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H56{
+  position: absolute;
+  top: 350px;
+  left: 745px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H35{
+  position: absolute;
+  top: 420px;
+  left: 745px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H50{
+  position: absolute;
+  top: 485px;
+  left: 750px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H30{
+  position: absolute;
+  top: 545px;
+  left: 760px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H38{
+  position: absolute;
+  top: 615px;
+  left: 760px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H43{
+  position: absolute;
+  top: 140px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H17{
+  position: absolute;
+  top: 210px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H47{
+  position: absolute;
+  top: 280px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H31{
+  position: absolute;
+  top: 350px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H45{
+  position: absolute;
+  top: 420px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H28{
+  position: absolute;
+  top: 485px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H49{
+  position: absolute;
+  top: 545px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#H58{
+  position: absolute;
+  top: 615px;
+  left: 835px;
+  color: black;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
