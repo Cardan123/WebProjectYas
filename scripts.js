@@ -112,10 +112,19 @@ function borrarHexa() {
     valorI=[];
 }
 
+function stateChange() {
+    setTimeout(function () {}, 1000);
+}
 function dibujarLinea(suma) {
 
     var estiloizq = document.querySelector("#Izquierdo");
     if (contador < 6) {
+        //estiloizq.style.animation = "none";
+        estiloizq.style.webkitAnimation = 'none';
+        setTimeout(function() {
+            estiloizq.style.webkitAnimation = '';
+        }, 10);
+        
         arriba -= 47;
         altura += 50;
         estiloizq.style.top = arriba + "px";
@@ -230,6 +239,14 @@ function dosHexagramas(){
     estiloder.style.top = "98px";
     estiloder.style.height = "300px";
     contador1=0;
+    estilocen.style.webkitAnimation = 'none';
+    setTimeout(function() {
+        estilocen.style.webkitAnimation = '';
+    }, 10);
+    estiloder.style.webkitAnimation = 'none';
+    setTimeout(function() {
+        estiloder.style.webkitAnimation = '';
+    }, 10);
     valorI.forEach(elemento => {
 
     switch (elemento) {

@@ -29,7 +29,24 @@
     padding: 0px 0cm;
     border-radius: 25px;
     box-shadow: 2px 2px 5px #999;
+    animation-duration: 1s;
+    animation-name: slidein;
 }
+
+@keyframes slidein {
+    from {
+        background-color: yellow;
+      border-radius: 1000px;
+
+    }
+  
+    to {
+      background-color: beige;
+      border-radius: 25px;
+
+    }
+  }
+
 #Central {
     position: fixed;
     left: 680px;
@@ -41,7 +58,25 @@
     padding: 0px 0cm;
     border-radius: 25px;
     box-shadow: 2px 2px 5px #999;
+    animation-duration: 1s;
+    animation-name: slideincen;
+
 }
+
+@keyframes slideincen {
+    from {
+
+      border-radius: 1000px;
+        opacity: 0;
+    }
+  
+    to {
+
+        border-radius: 25px;
+        opacity: 1;
+    }
+  }
+
 #Derecho {
     position: fixed;
     left: 984px;
@@ -53,7 +88,24 @@
     padding: 0px 0cm;
     border-radius: 25px;
     box-shadow: 2px 2px 5px #999;
+    animation-duration: 1s;
+    animation-name: slideinder;
 }
+
+@keyframes slideinder {
+    from {
+
+      border-radius: 1000px;
+        opacity: 0;
+    }
+  
+    to {
+
+        border-radius: 25px;
+        opacity: 1;
+    }
+  }
+
 .pila {
     position: relative;
     text-align: center;
